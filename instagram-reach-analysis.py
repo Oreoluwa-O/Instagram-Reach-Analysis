@@ -6,6 +6,7 @@ import seaborn as sns
 import plotly.express as px
 from wordcloud import WordCloud, STOPWORDS
 
+
 # Read the dataset
 data = pd.read_csv("Instagram data.csv", encoding='latin1')
 
